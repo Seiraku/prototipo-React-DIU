@@ -2,7 +2,6 @@ import React from 'react'
 
 import NavBar from '../components/nav_bar'
 import Button from '@mui/material/Button';
-import {Link, Navigate} from 'react-router-dom'
 import { useNavigate } from "react-router-dom";
 
 export const HomePage = () => {
@@ -16,7 +15,7 @@ export const HomePage = () => {
       <h2>Diseño de Interfaces Usuarias</h2>
       <Button  onClick={(e) => navigate("/diu")} variant="contained">Visitar</Button>
       <h2>Sistemas Distribuidos</h2>
-      <Button variant="contained">Visitar</Button>
+      <Button onClick={(e) => navigate("/distro")} variant="contained">Visitar</Button>
     </div>
   )
 }

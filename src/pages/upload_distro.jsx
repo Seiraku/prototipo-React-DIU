@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import NavBar from '../components/nav_bar'
 import { useNavigate } from "react-router-dom";
 
-function FileUpload() {
+function FileUploadDistro() {
   const [selectedFile, setSelectedFile] = useState(null);
 
   const navigate = useNavigate();
@@ -13,10 +13,8 @@ function FileUpload() {
   };
 
   const handleUpload = () => {
-    <Alert severity="success">
-        <AlertTitle>Success</AlertTitle>
-        This is a success alert — <strong>check it out!</strong>
-    </Alert>
+    alert('Archivo subido correctamente');
+    navigate('/distro')
     if (selectedFile) {
       console.log("Archivo seleccionado:", selectedFile);
       // Aquí puedes enviar el archivo al servidor utilizando una solicitud HTTP (por ejemplo, mediante axios o fetch).
@@ -33,4 +31,4 @@ function FileUpload() {
   );
 }
 
-export default FileUpload;
+export default FileUploadDistro;
