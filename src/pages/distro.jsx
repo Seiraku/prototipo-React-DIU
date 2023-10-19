@@ -13,7 +13,7 @@ export const DISTRO = () => {
       <h3></h3>
       <Button component={Link} to="/uploadis" variant="contained">Laboratorio 2</Button>
       <h3></h3>
-      <Button variant="contained">Upload</Button>
+      <Button component={Link} to='/distro/forums' variant="contained">Foro</Button>
     </div>
   )
 }

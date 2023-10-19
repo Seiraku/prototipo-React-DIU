@@ -8,6 +8,9 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { Switch } from '@mui/material';
+import {Link} from 'react-router-dom';
+import Button from '@mui/material/Button';
+
 
 function createData(topic, date, author) {
     return { topic, date, author};
@@ -36,6 +39,7 @@ export const DIU_FORUMS = () => {
               <TableCell align="center">Fecha</TableCell>
               <TableCell align="center">Autor</TableCell>
               <TableCell align="center">Subscrito?</TableCell>
+              <TableCell align="center">Visitar</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -51,6 +55,9 @@ export const DIU_FORUMS = () => {
                 <TableCell align="center">{row.author}</TableCell>
                 <TableCell align="center">
                     <Switch defaultChecked> </Switch>
+                </TableCell>
+                <TableCell>
+                    <Button component={Link} to='/forums/1' variant="contained">Foro</Button>
                 </TableCell>
               </TableRow>
             ))}

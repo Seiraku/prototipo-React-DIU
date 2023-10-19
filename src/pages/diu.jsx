@@ -13,7 +13,7 @@ export const DIU = () => {
       <h3></h3>
       <Button component={Link} to="/prueba" variant="contained">Tarea 8 - 19 Octubre</Button>
       <h3></h3>
-      <Button variant="contained">Upload</Button>
+      <Button component={Link} to='/diu/forums' variant="contained">Foro</Button>
     </div>
   )
 }

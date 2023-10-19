@@ -13,12 +13,6 @@ export const NavBar = () => {
         >
           <img src={LogoUsm} height={35} alt='inicio'></img>
         </NavLink>
-        <NavLink
-          className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
-          to='/internal'
-        >
-          Página Interna
-        </NavLink>
       </div>
       <div>
         <NavLink
