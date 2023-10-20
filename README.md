@@ -15,5 +15,5 @@ Integrantes:
 
 -Martin Sarubbi ROL: 201973587-k
 
-Enlace Video: https://drive.google.com/drive/folders/1GgDtsHniK3r6-4xqDfMd5vTh8I-TY4yO?usp=share_link
-Enlace Github:
+[Enlace Video](https://drive.google.com/drive/folders/1GgDtsHniK3r6-4xqDfMd5vTh8I-TY4yO?usp=share_link)
+[Enlace Github](https://github.com/Seiraku/prototipo-React-DIU/tree/main)
