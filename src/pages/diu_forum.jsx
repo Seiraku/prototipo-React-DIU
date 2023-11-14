@@ -35,7 +35,7 @@ export const DIU_FORUMS = () => {
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
             <TableRow>
-              <TableCell>Tema</TableCell>
+              <TableCell align="center">Tema</TableCell>
               <TableCell align="center">Fecha</TableCell>
               <TableCell align="center">Autor</TableCell>
               <TableCell align="center">Subscrito?</TableCell>
@@ -48,7 +48,7 @@ export const DIU_FORUMS = () => {
                 key={row.name}
                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
               >
-                <TableCell component="th" scope="row">
+                <TableCell align="center" component="th" scope="row">
                   {row.topic}
                 </TableCell>
                 <TableCell align="center">{row.date}</TableCell>
@@ -56,7 +56,7 @@ export const DIU_FORUMS = () => {
                 <TableCell align="center">
                     <Switch defaultChecked> </Switch>
                 </TableCell>
-                <TableCell>
+                <TableCell align="center">
                     <Button component={Link} to='/forums/1' variant="contained">Foro</Button>
                 </TableCell>
               </TableRow>

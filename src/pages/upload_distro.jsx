@@ -22,8 +22,9 @@ function FileUploadDistro() {
   };
 
   return (
-    <div>
+    <div className='page'>
         <NavBar />
+        <h1 className='page__title'> Tarea 1 de Sistemas Distribuidos</h1>
         <h2>Cargar Archivos</h2>
         <input type="file" onChange={handleFileChange} />
         <button onClick={handleUpload}>Subir Archivo</button>

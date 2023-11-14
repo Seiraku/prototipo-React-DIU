@@ -13,8 +13,8 @@ function FileUpload() {
   };
 
   const handleUpload = () => {
-    alert('Archivo subido correctamente');
-    navigate('/diu')
+    alert('El archivo se subio correctamente');
+    navigate("/diu")
     if (selectedFile) {
       console.log("Archivo seleccionado:", selectedFile);
       // Aquí puedes enviar el archivo al servidor utilizando una solicitud HTTP (por ejemplo, mediante axios o fetch).
@@ -22,9 +22,8 @@ function FileUpload() {
   };
 
   return (
-    <div className='page'>
+    <div>
         <NavBar />
-        <h1> Tarea 1 - 8 hasta 19 de Octubre</h1>
         <h2>Cargar Archivos</h2>
         <input type="file" onChange={handleFileChange} />
         <button onClick={handleUpload}>Subir Archivo</button>

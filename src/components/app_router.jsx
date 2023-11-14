@@ -24,7 +24,7 @@ const AppRouter = () => {
         <Route path='/diu/forums' element={<DIU_FORUMS />}/>
         <Route path='/distro' element={<DISTRO />}/>
         <Route path='/uploaded' element={<UploadPage_s />}/>
-        <Route path='/prueba' element={<FileUpload/>}/>
+        <Route path='/diu/entrega' element={<FileUpload/>}/>
         <Route path='/uploadis' element={<FileUploadDistro/>}/>
         <Route path='/distro/forums' element={<DISTRO_FORUMS />}/>
         <Route path='/forums/1' element={<Forum1/>}/>

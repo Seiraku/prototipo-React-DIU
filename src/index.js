@@ -7,7 +7,10 @@ import './stylesheets/index.scss'
 
 const root = document.createElement('div')
 root.setAttribute('id', 'root')
+root.setAttribute('style', "Height:100%;width:100%")
 document.body.appendChild(root)
+
+
 
 ReactDom.render(
   <AppRouter />,
