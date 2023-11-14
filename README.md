@@ -17,7 +17,6 @@ Integrantes:
 
 [Enlace Video](https://drive.google.com/drive/folders/1GgDtsHniK3r6-4xqDfMd5vTh8I-TY4yO?usp=share_link)
 [Enlace Github](https://github.com/Seiraku/prototipo-React-DIU/tree/main)
-<<<<<<< HEAD
 
 Primero Instalar dependencias con:
 
@@ -28,5 +27,3 @@ Luego correr el prototipo con:
 npm run dev
 
 Despues de esto el el prototipo es visible en http://localhost:5050
-=======
->>>>>>> 247fabafaf3b1787f973c0f93886db3449a78f91
